@@ -83,7 +83,7 @@ function calcReadingTime(wordcount) {
 }
 
 function calcDates(state) {
-	let timestamp = state
+	let timestamp = state;
 
 	let date = new Date(timestamp);
 	let day = "0" + date.getDay();
